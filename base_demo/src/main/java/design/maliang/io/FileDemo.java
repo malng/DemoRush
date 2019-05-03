@@ -34,7 +34,7 @@ public class FileDemo {
     //创建一个文件夹
     @Test
     public void mkDir(){
-        File file = new File("D:\\workspace\\DemoRush\\base_demo\\src\\main\\resources\\tmpfolder\\");
+        File file = new File(".\\aaa\\");
         System.out.println(file.mkdir());
     }
 
